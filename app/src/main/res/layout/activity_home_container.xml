@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linerhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gray">
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <FrameLayout
+            android:id="@+id/frameBottombar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <FrameLayout android:id="@+id/frameStackbackgroundcolor"
+                android:layout_height="38dp" android:layout_width="38dp">
+                <View
+                    android:background="@drawable/bg_white_700"
+                    android:id="@+id/viewBackgroundColor"
+                    android:layout_height="38dp" android:layout_width="38dp"/>
+
+                <ImageView
+                    android:id="@+id/imageHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_home"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_home" />
+            </FrameLayout>
+            <ImageView android:id="@+id/imageCalendar"
+                android:layout_gravity="center"
+                android:layout_height="18dp"
+                android:layout_width="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_calender"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_calender"/>
+            <ImageView android:id="@+id/imageGrid"
+                android:layout_gravity="center"
+                android:layout_height="14dp"
+                android:layout_width="14dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_grid"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_grid"/>
+            <ImageView android:id="@+id/imageMail"
+                android:layout_gravity="center"
+                android:layout_height="14dp"
+                android:layout_width="14dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_mail"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_mail"/>
+            <ImageView android:id="@+id/imageUser"
+                android:layout_gravity="center"
+                android:layout_height="16dp"
+                android:layout_width="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_user"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+        </FrameLayout>
+
+        
+    </LinearLayout>
+
+</layout>

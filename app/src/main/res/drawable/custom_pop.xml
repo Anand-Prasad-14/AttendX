@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The white background -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- The blue outline with padding (adjust padding values as needed) -->
+    <item
+        android:drawable="@drawable/blue_outline"
+        android:left="32dp"
+        android:right="32dp"
+        android:top="32dp"
+        android:bottom="32dp" />
+
+    
+</layer-list>

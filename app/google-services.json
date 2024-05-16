@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642318734541",
+    "project_id": "attendx-d26f5",
+    "storage_bucket": "attendx-d26f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642318734541:android:2c87ad9a811cd19ebd4584",
+        "android_client_info": {
+          "package_name": "com.example.attendx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWKHMpxlJVNLJblZR1SGsfGbOO2NAj5pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
