@@ -19,7 +19,7 @@ Features:
 2. Attendance Management
    - Automated attendance capture based on students' physical location.
 3. Admin Section :
-   Click on the link :
+   - Click on the link : https://github.com/Anand-Prasad-14/adminattendx
 
 Preview : 
 
@@ -29,13 +29,14 @@ TECHNOLOGY USED:
 - Location Services API
 - Firebase for Authentication and Database
 - Kotlin language
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a></p>
 
 INSTALLATION:
   1. Clone the repository:
-     git clone https:
+     git clone https://github.com/Anand-Prasad-14/AttendX.git
   2. Open the project in Android Studio
   3. Configure Firebase
-     - Add your `google-services.son` file to the directory.
+     - Add your `google-services.json` file to the directory.
      - Ensure your firebase project is setup with Authentication and Database.
   4. Build and run the project on an Android device or emulator with location services enabled.
 
